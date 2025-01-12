@@ -14,7 +14,7 @@ This project is a simple e-commerce platform built using Spring Boot and microse
 - **Backend**: Spring Boot (Java)
 - **Frontend**: TypeScript, HTML
 - **API Gateway**: Spring Cloud Gateway
-- **Database**: H2 / MySQL (based on your implementation)
+- **Database**: MySQL, MongoDb
 - **Messaging**: Kafka (optional, if used)
 - **Containerization**: Docker
 
@@ -23,7 +23,7 @@ This project is a simple e-commerce platform built using Spring Boot and microse
 - **Inventory Service** 🛒: Manages stock levels and product availability.
 - **Order Service** 📝: Handles customer orders, order processing, and order history.
 - **Product Service** 🏷️: Manages product details, categories, and updates product information.
-- **Notification Service 📧**: Sends notifications such as emails, SMS, or in-app alerts to users.
+- **Notification Service 📧**: Sends notifications emails.
 - **API Gateway 🌐**: A single entry point for routing requests to the appropriate microservices, handling load balancing and security.
 
 ## 🚀 Getting Started
